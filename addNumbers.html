@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Three Numbers</title>
+    <link rel="stylesheet" href="addNumbers.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Three Numbers</h1>
+        <form id="numberForm">
+            <div class="form-group">
+                <label for="inputOdd">Odd Number:</label>
+                <input type="number" id="inputOdd" required>
+                <p class="error-message" id="errorOdd"></p>
+            </div>
+            <div class="form-group">
+                <label for="inputEven">Even Number:</label>
+                <input type="number" id="inputEven" required>
+                <p class="error-message" id="errorEven"></p>
+            </div>
+            <div class="form-group">
+                <label for="inputNegative">Negative Number:</label>
+                <input type="number" id="inputNegative" required>
+                <p class="error-message" id="errorNegative"></p>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="total"></p>
+    </div>
+    <script src="addNumbers.js"></script>
+</body>
+</html>
